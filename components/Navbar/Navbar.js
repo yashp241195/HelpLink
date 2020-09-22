@@ -28,7 +28,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Menu from '@material-ui/core/Menu'
 import MenuItem from '@material-ui/core/MenuItem'
-
+import Footer from '../Footer/Footer'
 
 const Navbar = (props) => {
 
@@ -136,6 +136,7 @@ const Navbar = (props) => {
                               
             </div>
             <div style={{marginTop:50,}}>{props.children}</div>
+            <Footer/>
         </div>
     )
 }
