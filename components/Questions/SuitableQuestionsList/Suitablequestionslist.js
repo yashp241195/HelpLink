@@ -2,10 +2,20 @@ import React from 'react'
 
 const Suitablequestionslist = () => {
     
-    const li = {suitableQuestions:[
-        {questions:"what is .."},
-        {questions:"what is .."},
-    ]}
+    const li = {
+        listOfsuitablequestions:[
+            {
+                question : "What is ..",
+                answer: "This is ...",
+                hashtags:["dating", "approaching"]
+            },
+            {
+                question : "What is ..",
+                answer: "This is ...",
+                hashtags:["grooming", "conversation"]
+            },
+        ]
+    }
 
 
     return (

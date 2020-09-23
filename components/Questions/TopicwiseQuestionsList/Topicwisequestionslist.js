@@ -3,9 +3,24 @@ import React from 'react'
 const Topicwisequestionslist = () => {
     
 
-    const li = {topicWiseQuestions:[
-        {questions:"what is .."},
-        {questions:"what is .."},
+    const li = {listOftopicwisequestionsanswers:[
+        {   
+            topicName:"relationship",
+            questionsList:         
+                [
+                    {
+                        question : "What is ..",
+                        answer: "This is ...",
+                        hashtags:["love", "life"]
+                    },
+                    {
+                        question : "What is ..",
+                        answer: "This is ...",
+                        hashtags:["trust", "question"]
+                    }
+            
+                ]
+        },
     ]}
 
 
