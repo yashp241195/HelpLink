@@ -12,6 +12,10 @@
     "@material-ui/icons": "^4.9.1",
     "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-image-gallery": "^1.0.8",
+    "react-player": "^2.6.2",
+    "react-responsive-carousel": "^3.2.10",
+    "react-simple-image-slider": "^1.0.4"
   }
 }
