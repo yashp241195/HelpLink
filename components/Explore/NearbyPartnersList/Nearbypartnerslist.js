@@ -1,4 +1,5 @@
 import React from 'react'
+import PartnerCardSwiper from '../PartnerCardSwiper/PartnerCardSwiper'
 
 const Nearbypartnerslist = () => {
 
@@ -21,6 +22,8 @@ const Nearbypartnerslist = () => {
 
     return (
         <div>
+            <br/>
+            <PartnerCardSwiper/>
             <br/>
             <pre>
                 { JSON.stringify(li,null,2) }
