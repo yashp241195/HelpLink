@@ -1,4 +1,5 @@
 import React from 'react'
+import QuestionCard from '../QuestionCard/QuestionCard'
 
 const Suitablequestionslist = () => {
     
@@ -20,6 +21,7 @@ const Suitablequestionslist = () => {
 
     return (
         <div>
+            <QuestionCard />
            <br/>
            <pre>
                 { JSON.stringify(li,null,2) }
