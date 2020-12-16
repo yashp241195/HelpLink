@@ -1,6 +1,5 @@
 import React from 'react'
 import PartnerCardSwiper from '../PartnerCardSwiper/PartnerCardSwiper'
-import Wrapper from '../PartnerCardSwiper/Wrapper'
 
 const Nearbypartnerslist = () => {
 
