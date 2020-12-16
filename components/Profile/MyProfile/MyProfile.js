@@ -1,8 +1,7 @@
 import React from 'react'
-import PartnerCardSwiper from '../PartnerCardSwiper/PartnerCardSwiper'
-import Wrapper from '../PartnerCardSwiper/Wrapper'
+import MyProfileCardSwiper from '../MyProfileCardSwiper/MyProfileCardSwiper'
 
-const Nearbypartnerslist = () => {
+const MyProfile = () => {
 
     const li = {
         swipeSuggestions:[
@@ -23,11 +22,7 @@ const Nearbypartnerslist = () => {
 
     return (
         <div>
-            <br/>
-            {/* <Wrapper /> */}
-            <br/>
-            <PartnerCardSwiper/>
-            <br/>
+            <MyProfileCardSwiper />
             <pre>
                 { JSON.stringify(li,null,2) }
             </pre>
@@ -35,4 +30,4 @@ const Nearbypartnerslist = () => {
     )
 }
 
-export default Nearbypartnerslist
+export default MyProfile

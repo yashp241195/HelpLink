@@ -1,13 +1,13 @@
 import React from 'react'
-import ExploreTabs from '../components/Explore/ExploreTabs'
 import DrawerLayout from '../hoc/DrawerLayout'
+import Message from '../components/Message/Message'
 
-const explorePage = () => {
+const messagePage = () => {
     return (
             <DrawerLayout>
-                <ExploreTabs />
+                <Message />
             </DrawerLayout>
     )
 }
 
-export default explorePage
+export default messagePage

@@ -38,26 +38,22 @@ const Dailypartnerslist = () => {
         <div>
             <br/>
             <Grid container spacing={3}>
-                <Grid item xs={3}>
+                <Grid item xs={4}>
                     <Paper className={classes.paper}>
                         <SelectPartnerCard />
                     </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={4}>
                     <Paper className={classes.paper}>
                         <SelectPartnerCard />
                     </Paper>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={4}>
                     <Paper className={classes.paper}>
                         <SelectPartnerCard />
                     </Paper>
                 </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>
-                        <SelectPartnerCard />
-                    </Paper>
-                </Grid>
+                
             </Grid>
             <br/>
             <pre>

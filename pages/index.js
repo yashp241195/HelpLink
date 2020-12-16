@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Layout from '../hoc/Layout'
+import React from 'react'
+import HomeLayout from '../hoc/HomeLayout'
+import Home from '../components/Home/Home'
 
-export default function Home() {
-  return (
-    <div >
-      <Layout>
-        Main
-      </Layout>
-    </div>
-  )
+const homePage = () => {
+    return (
+            <HomeLayout>
+                <Home/>
+            </HomeLayout>
+    )
 }
+
+export default homePage

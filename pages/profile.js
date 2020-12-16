@@ -1,8 +1,8 @@
 import React from 'react'
-import ExploreTabs from '../components/Explore/ExploreTabs'
+import ExploreTabs from '../components/Profile/ExploreTabs'
 import DrawerLayout from '../hoc/DrawerLayout'
 
-const explorePage = () => {
+const profilePage = () => {
     return (
             <DrawerLayout>
                 <ExploreTabs />
@@ -10,4 +10,4 @@ const explorePage = () => {
     )
 }
 
-export default explorePage
+export default profilePage

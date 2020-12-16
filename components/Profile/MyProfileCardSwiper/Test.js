@@ -10,7 +10,7 @@ import StarsIcon from '@material-ui/icons/Stars';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import CancelIcon from '@material-ui/icons/Cancel';
 import ProfileInfo from './ProfileInfo'
-import MoreInfo from './MoreInfo'
+import UpdateProfileForm from './UpdateProfileForm'
 
 const Test = () => {
 
@@ -21,7 +21,8 @@ const Test = () => {
 
     return (
         <div>
-           <Grid container spacing={3}>
+           <Grid container spacing={1}>
+               
                 <Grid item xs={6}>
                    <Paper> 
                        <ProfileInfo />
@@ -29,27 +30,7 @@ const Test = () => {
                 </Grid>
                 <Grid item xs={6}>
                     <Paper >
-                        <MainSlider />
-                        <IconButton 
-                        style={{color:"#f44336"}}
-                        onClick={()=>{setLiked(!liked)}}
-                        >
-                        { (liked)?<FavoriteIcon/>:<FavoriteBorderOutlinedIcon/> } 
-                        </IconButton>
-                        <IconButton 
-                        size="large"
-                        style={{color:"blue"}}
-                        onClick={()=>{setSuperlike(!superlike)}}
-                        >
-                            { (superlike)?<StarsIcon/>:<StarsOutlinedIcon/> } 
-                        </IconButton>
-                        <IconButton 
-                        size="large"
-                        style={{color:"black"}}
-                        onClick={()=>{setDisliked(!disliked)}}
-                        >
-                            { (disliked)?<CancelIcon/>:<CancelOutlinedIcon/> } 
-                        </IconButton>
+                       <MainSlider />
                     </Paper>
                 </Grid>                
             </Grid> 

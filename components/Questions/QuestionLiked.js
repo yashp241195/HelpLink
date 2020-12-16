@@ -53,7 +53,7 @@ export default function QuestionCard() {
 
   return (
     <Card className={classes.root}>
-      <CardHeader
+      {/* <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
             Y
@@ -66,7 +66,7 @@ export default function QuestionCard() {
         }
         title="Yash Pratap"
         subheader="September 28, 2020"
-      />
+      /> */}
       {/* <CardMedia
         className={classes.media}
         image="/static/images/cards/paella.jpg"
@@ -79,27 +79,13 @@ export default function QuestionCard() {
         <Chip variant="outlined" size="small" label="Relationships" />
           <Chip variant="outlined" size="small" label="different stages of relationship" />
           <Chip variant="outlined" size="small" label="love" />
-
         <br/>
       </Typography>
-        <Typography style={{height:'100%', marginTop:10, overflow:"hidden"}} variant="body2"  component="p" paragraph  gutterBottom>
-          
+        <Typography style={{height:'20%', marginTop:10, overflow:"hidden"}} variant="body2"  component="p" paragraph nowrap={false} gutterBottom>
           Every stage love has it’s own beauty and dynamics but the feeling of love/involvement remains the same. You can’t expect same things from each stage because people value different things at different stages of life.
-          <br/>
-          <br/>
-          Teenage : Don’t take it seriously at all because your brain isn’t capable to select life partner and your ability to handle emotion is very low. It is solely based on attraction because personalities aren’t developed yet.
-          <br/><br/>
-          Early 20’s : Don’t push your limits for anyone because it the most critical time for your personal growth. Your only objective to get into relationship is to know yourself better first and only commit to serious relationship if you are very sure about your preferences. Don’t feel bad if your relationship doesn’t workout as very few relationships survive this stage because both are evolved in different personalities who are really tough to stick together.
-          <br/><br/>
-          You can love tiger but you can’t spend the rest of your life with a tiger. Even if you manage to stay with tiger by maintaining too much discipline, you will miss out the other dimensions in life and humans suffers limitations immensely. I am using tiger metaphorically but humans are not tree or any tiger they can change and become more wise. To maintain the relationship you need to invest 2 or 3 times time, energy and efforts to make it work till both gain enough wisdom to handle each other but still it will be more tough to find time for other things. You life will revolve around maintaining the relationship but if it the the most valuable thing in your life you must protect it because there is no rule book for life.
-
-          No rule book doesn’t mean you can do whatever you want in your life and you don’t need to face it’s consequences of your decision. You need to prepare yourself for the consequences but trust me if you sacrifice few years to build your life it will worth it but don’t confuse that you have the strongest relationship bond because you made lots of sacrifice, other people had similar bond as you with lesser efforts. Remember, comparison is the thief of joy.
-
-          I don't see many people complaining not able to explore chemistry, ice hockey etc etc in life or it is not necessary to try everything in life because life is very short to do that and if you remove few things or limit your expectations you can live with your tiger peacefully.
-          <br/><br/>
-          Adult : This is the time to make some efforts to find the life partner. If your casual relationship works fine than you can go with it otherwise you need to find the new one. Don’t expect the same story of early 20's in adult life because both people are evolved enough which means nobody is going to do too much stupidity to impress each other. It doesn’t mean people stop caring for each other but it means old rules doesn’t work anymore.
-
-
+          {/* <br/><br/> */}
+          {/* Teenage : Don’t take it seriously at all because your brain isn’t capable to select life partner and your ability to handle emotion is very low. It is solely based on attraction because personalities aren’t developed yet.
+          <br/><br/> */}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>

@@ -9,7 +9,7 @@ const Explore = () => {
             <br/><br/>
             ..... List of potential partners available nearby (Swipe left/right) .....
             <br/>
-            <Nearbypartnerslist />
+            {/* <Nearbypartnerslist /> */}
             <br/>
             ..... List of more suitable potential partners (daily recommendations) .....
             <br/>

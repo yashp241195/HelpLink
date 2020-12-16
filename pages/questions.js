@@ -1,14 +1,12 @@
 import React from 'react'
-import Questions from '../components/Questions/Questions'
-import Layout from '../hoc/Layout'
+import QuestionsTabs from '../components/Questions/QuestionsTabs'
+import DrawerLayout from '../hoc/DrawerLayout'
 
 const questionsPage = () => {
     return (
-        <div>
-            <Layout>
-                <Questions />
-            </Layout>
-        </div>
+            <DrawerLayout>
+                <QuestionsTabs />
+            </DrawerLayout>
     )
 }
 export default questionsPage
