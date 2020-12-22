@@ -68,7 +68,6 @@ export default function SimpleTabs() {
           <Tab style={{ textTransform: 'none', }} label="Profile" {...a11yProps(0)} />
           <Tab style={{ textTransform: 'none', }} label="Update" {...a11yProps(1)} />
           <Tab style={{ textTransform: 'none', }} label="Settings" {...a11yProps(2)} />
-          <Tab style={{ textTransform: 'none', }} label="Payments" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -83,7 +82,6 @@ export default function SimpleTabs() {
       <TabPanel value={value} index={3}>
         <Payment />
       </TabPanel>
-      
     </div>
   );
 }

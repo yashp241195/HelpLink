@@ -81,9 +81,9 @@ export default function SimpleTabs() {
         <Tabs 
         
         value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab style={{ textTransform: 'none', }} label="Nearby" {...a11yProps(0)} />
-          <Tab style={{ textTransform: 'none', }} label="Daily" {...a11yProps(1)} />
-          <Tab style={{ textTransform: 'none', }} label="Matches" {...a11yProps(2)} />
+          <Tab style={{ textTransform: 'none', }} label="Connections" {...a11yProps(0)} />
+          <Tab style={{ textTransform: 'none', }} label="People who can help you" {...a11yProps(1)} />
+          <Tab style={{ textTransform: 'none', }} label="People who need your help" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>

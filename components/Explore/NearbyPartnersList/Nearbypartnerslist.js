@@ -23,8 +23,6 @@ const Nearbypartnerslist = () => {
     return (
         <div>
             <br/>
-            {/* <Wrapper /> */}
-            <br/>
             <PartnerCardSwiper/>
             <br/>
             <pre>

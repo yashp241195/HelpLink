@@ -95,9 +95,9 @@ const HomeNavbar = (props) => {
         }}>
             <div style={{height:50,marginBottom:5,marginTop:5,display:"flex"}}>
                 <div style={{display:"flex",marginTop:15, marginRight:5}} >
-                    <img src="icons/dateme.png" height="35" />
+                    <img src="icons/helplink.png" height="35" />
                 </div>
-                <h2>Datemee</h2>
+                <h2>Helplink</h2>
                 <div style={{flexGrow:1}} ></div>
                 <Button onClick={handleOpen} color="inherit">Login</Button>                
             </div>

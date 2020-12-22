@@ -22,7 +22,8 @@ import clsx from 'clsx';
 import MenuIcon from '@material-ui/icons/Menu';
 import Paper from '@material-ui/core/Paper'
 import Link from 'next/link'
-
+import HomeIcon from '@material-ui/icons/Home'
+import PanToolIcon from '@material-ui/icons/PanTool';
 import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
 
 
@@ -86,21 +87,20 @@ export default function PermanentDrawerLeft(props) {
         <div style={{background:'#fff'}} className={classes.toolbar} >
           <div style={{height:50,marginLeft:35, marginBottom:5, display:"flex"}}>
               <div style={{display:"flex",marginTop:15, marginRight:5}} >
-                <img src="icons/dateme.png" height="30" />
+                <img src="icons/helplink.png" height="30" />
               </div>
-              <h2 style={{color:'#ed5168', marginTop:15,  fontFamily:'serif' }}  > Datemee </h2>
+              <h2 style={{color:'#28B463', marginTop:15,  fontFamily:'serif' }}  > Helplink </h2>
           </div>
         </div>
         </Paper>
         <Divider />
         <List>
           {[
-              {name:'Explore',icon:<ExploreIcon/>,path:'/explore'},
-              {name:'Questions',icon:<HelpIcon/>,path:'/questions'},
-              {name:'Counselling',icon:<SentimentVerySatisfiedIcon/>,path:'/counselling'},
-              {name:'Messages',icon:<ChatIcon/>,path:'/messages'},
-              {name:'Notifications',icon:<NotificationsIcon/>,path:'/notifications'},
-              {name:'Profile',icon:<AccountCircleIcon/>,path:'/profile'},
+              {name:'Home', icon:<HomeIcon/>,path:'/home'},
+              {name:'Explore', icon:<PanToolIcon/>,path:'/explore'},
+              {name:'Messages', icon:<ChatIcon/>,path:'/messages'},
+              {name:'Notifications', icon:<NotificationsIcon/>,path:'/notifications'},
+              {name:'Profile', icon:<AccountCircleIcon/>, path:'/profile'},
 
           ].map((item, index) => (
             <Link href={item.path}>
@@ -113,7 +113,6 @@ export default function PermanentDrawerLeft(props) {
             </Link>
           ))}
         </List>
-
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
